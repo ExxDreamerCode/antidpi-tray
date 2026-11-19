@@ -1,8 +1,4 @@
-# AntiDPI Tray
-
-[RU](#ru) | [EN](#en)
-
----
+# AntiDPI Tray **[RU](#ru)** | **[EN](#en)**
 
 <a id="ru"></a>
 ## RU
