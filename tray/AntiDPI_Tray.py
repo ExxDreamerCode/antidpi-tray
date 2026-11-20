@@ -218,13 +218,12 @@ class AntiDPITray:
                 n = int(self.strategy)
             except Exception:
                 n = 4
-            debug_log('auto-start: strategy %d in 10s (waiting for network)' % n)
+            debug_log('auto-start: strategy %d immediately' % n)
             if self.icon:
                 try:
                     self.icon.title = 'AntiDPI: автозапуск стратегии {0}…'.format(n)
                 except Exception:
                     pass
-            time.sleep(10)=
             self._click(('on', n))
 
 
